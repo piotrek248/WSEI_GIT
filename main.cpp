@@ -11,7 +11,7 @@ int main() {
     short int wybor;
 
     cout << "Program przelicza GBP/PLN PLN/GBP po kursie"<<endl;
-    cout << "Wybierz opcje:" << endl << "1 - GBP/PLN" << endl << "2 - PLN/GBP"<<endl; cin >> wybor;
+    cout << "Wybierz opcje: \n 1 - GBP/PLN \n 2 - PLN/GBP" << endl; cin >> wybor;
 
     switch (wybor){
         case 1:
