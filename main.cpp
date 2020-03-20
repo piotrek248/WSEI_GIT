@@ -3,8 +3,10 @@
 using namespace std;
 
 int main() {
+    // Deklaracja funkcji
     float funty_na_pln(float funty, float kurs);
     float pln_na_funty(float pln, float kurs);
+    // Deklaracja zmiennych
     float kurs, funty, pln;
     short int wybor;
 
@@ -26,11 +28,11 @@ int main() {
 
     return 0;
 }
-
+// Funkcja przeliczająca funty na złotówki po kursie
 float funty_na_pln(float funty, float kurs){
     return funty*kurs;
 }
-
+// Funkcja przeliczająca złotówki na funty
 float pln_na_funty(float pln, float kurs){
     return pln*kurs;
 }
